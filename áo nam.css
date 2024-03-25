@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  #headsale p{
+    font-size: 15px;
+    display:block;
+    margin-right: 10px;
+    margin-left: 25px;
+    color:black;
+}
+marquee{
+    background-color: rgba(171, 119, 85, 0.399);
+}
+marquee p{
+    color:rgb(21, 21, 21);
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 100px;
+}
+.menu{
+    display:flex;
+    margin-left: 80px;
+    margin-right: 50px;
+  
+}
+.menu img{
+    width:80px;
+    height:50px;
+
+}
+.menu li{
+    margin:auto;
+    list-style-type: none;
+    display: block; 
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  white-space: nowrap;
+  position: relative;
+ 
+}
+.menu #search{
+    margin-left: 130px;
+}
+#search input{
+    width:300px;
+    height:20px;
+    border-radius: 100px;
+    padding: 10px;
+  
+}
+#brick:hover{
+    transition: box-shadow .4s, color.3s;
+    box-shadow: 0 3px tomato;
+}
+.menu-2{
+    margin:auto;
+      list-style-type: none;
+      display: block; 
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration:none;
+  }
+  .menu-2 a{
+    text-decoration:none;
+    color:#222;
+  }
+.section{
+    margin-bottom: 50px;
+}
+.section h2{
+    text-transform:none;
+    text-align: left;
+    color: rgb(12, 12, 12);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+  
+}
+
+.section p{
+  text-align:left;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.product{
+    width: calc(25.0% - 20px);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.product img{
+  width: 350px;
+  height:400px;
+  border: 2px solid rgb(17, 17, 17);
+  margin-bottom: 20px;
+  border-radius:10px;
+ 
+
+}
+.product h3{
+    margin: 0;
+}
+.product p{
+    margin: 10px 0;
+}
+.product button{
+    background-color: #222;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.product li{
+    color:rgb(0, 0, 0);
+    margin:auto;
+    list-style-type: none;
+}
+section form{
+    margin-left: 35%;  
+}
+section h2{
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(25, 25, 26);
+  margin-bottom: 20px;
+}
+
+section form input{
+    margin-left: 50px;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+}
